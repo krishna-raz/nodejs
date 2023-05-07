@@ -1,6 +1,6 @@
 const mogoees = require("mongoose");
 const validator = require('validator');
-mogoees.connect("mongodb+srv://krishna:admin@cluster0.5exf1tj.mongodb.net/rkrishna").then(() => console.log('Connected!'));
+mogoees.connect("").then(() => console.log('Connected!'));
 
 
 const studentSchema= new mogoees.Schema({
